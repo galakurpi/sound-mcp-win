@@ -1,14 +1,14 @@
-# 🔊 Cursor Sound MCP
+# 🔊 Cursor Sound MCP (for Windows)
 
 Get audio feedback when Cursor AI completes generating code! This simple tool plays a satisfying sound effect whenever Cursor finishes its work, making your coding experience more interactive and enjoyable.
 
-Demo: 
+Demo: https://x.com/JonYekarAI/status/1900978269836431527
 
-## 🚀 Quick Start
+## Installation guide
 
 1. **Install Node.js:**
    - Download and install from [nodejs.org](https://nodejs.org/)
-   - We recommend the LTS (Long Term Support) version
+   - LTS (Long Term Support) version recommended
 
 2. **Clone this repository:**
    ```bash
@@ -28,7 +28,7 @@ Demo:
 
 5. **Add this command to Cursor MCP settings:**
    ```cmd
-   node [ROOT DIR OF CLONED REPO]\dist\index.js
+   node [LOCAL DIRECTORY OF CLONED REPO]\dist\index.js
    ```
 
 That's it! Now when Cursor AI completes code generation, you'll hear a sound effect! 🎵

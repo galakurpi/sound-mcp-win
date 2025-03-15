@@ -1,0 +1,29 @@
+{
+  "name": "cursor-sound-mcp",
+  "version": "1.0.0",
+  "description": "MCP for Cursor that plays sounds after code generation",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc -w"
+  },
+  "keywords": [
+    "mcp",
+    "cursor",
+    "sound"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "latest",
+    "@types/play-sound": "^1.1.2",
+    "play-sound": "^1.1.5",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
